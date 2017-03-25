@@ -1,0 +1,22 @@
+h1{
+  border-width:10px;
+  border-color:red;
+  border-style:dotted;
+}
+a:link{
+  color:purple;
+}
+a:visited{
+  color:red;
+}
+a:hover{
+  color:green;
+}
+a:active{
+  border-width:2px;
+}
+.orange-border{
+  border-color:orange;
+  border-width:10px;
+  border-style:solid;
+}

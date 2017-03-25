@@ -1,7 +1,22 @@
 <!DOCTYPE html>
 <html>
+<head>
 <title>Home Page</title>
-</html>
+<link rel="stylesheet" type="text/css" href="Menu_Style.css">
+<style>
+#picture{
+  width:500px;
+  border-width:25px;
+  border-style:ridge;
+  border-color:red;
+}
+p:hover{
+  color:white;
+  text-transform:capitalize;
+  background-color:black;
+}
+</style>
+</head>
 <body>
 <h1 align="center">Hope's Diner</h1>
 <hr>
@@ -11,16 +26,19 @@
 <hr>
 <table align="center" width="500px" cellpadding="20">
 <tr align="center">
-<td><img src=".\images\diner.jpg" width="500px"></td>
+<td><img src=".\images\diner.jpg" id="picture"></td>
 </tr>
 <tr>
-<td>Come on down to Hope's diner where you and the whole family can enjoy
+<td><p>Come on down to Hope's diner where you and the whole family can enjoy
 a nice friendly meal. We understand that you may have just had a tough day
 trying to learn something new... coding perhaps? If you're getting discouraged and are thinking, "Gee
-Golly, this might be too much to handle."--Just remember--there's always Hope's!</td>
+Golly, this might be too much to handle."--Just remember--there's always Hope's!<p></td>
 </tr>
 
 </table>
 <hr>
-<div align="center">777 Java St. Guildy, OH<br>481-516-2342</div>
+<div align="center">
+<div  class="orange-border" style="width:500px;">777 Java St. Guildy, OH<br>481-516-2342</div>
+</div>
 </body>
+</html>

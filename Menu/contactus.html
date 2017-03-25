@@ -2,8 +2,17 @@
 <html>
 <head>
   <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="Menu_Style.css">
+  <style>
+  table:hover{
+    border-style:groove;
+    border-color:red;
+    border-width:25;
+  }
+  </style>
 </head>
 <body>
+
   <h1 align="center">Hope's Diner</h1>
   <hr>
   &nbsp&nbsp&nbsp&nbsp&nbsp<a href=".\index.html">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -39,8 +48,9 @@
 </tr>
 <tr>
   <td align="right">Have you been to the restaurant?</td>
-  <td>&nbsp&nbsp&nbsp<input type="radio" name="HAVE_YOU_BEEN" value="No" checked/>No
-    <input type="radio" name="HAVE_YOU_BEEN" value="Yes"/>Yes
+  <td>&nbsp&nbsp&nbsp
+    <input type="radio" name="HAVE_YOU_BEEN" value="No" id="male" checked/><label for="No">No</label>
+    <input type="radio" name="HAVE_YOU_BEEN" value="Yes" id="male"/><label for="Yes">Yes</label>
   </td>
 </tr>
 <tr>
@@ -60,6 +70,8 @@
 
 </table>
 <hr>
-<div align="center">777 Java St. Guildy, OH<br>481-516-2342</div>
+<div align="center">
+<div  style="width:500px" class="orange-border">777 Java St. Guildy, OH<br>481-516-2342</div>
+</div>
 </body>
 </html>
