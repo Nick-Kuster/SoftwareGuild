@@ -1,3 +1,4 @@
+
 h1{
   border-width:10px;
   border-color:red;
@@ -15,7 +16,7 @@ a:hover{
 a:active{
   border-width:2px;
 }
-.orange-border{
+#contact{
   border-color:orange;
   border-width:10px;
   border-style:solid;

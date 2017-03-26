@@ -1,8 +1,11 @@
 <!DOCTYPE html>
+<!--your header and footer must match across the pages, so store their styles in an external file called restaurantstyles.css.
+Apply all positioning CSS styles for the image on the home page as an in-line style.
+Apply all styles for the menu and contact form in internal style sheets.-->
 <html>
 <head>
   <title>Menu</title>
-  <link href="Menu_Style.css" rel="stylesheet" type="text/css"/>
+  <link href="restaurantstyles.css" rel="stylesheet" type="text/css"/>
   <style>
   td{
     border-width:5px;
@@ -12,14 +15,14 @@
   </style>
 </head>
 <body>
-  <h1 align="center" class="red-dotted-border">Hope's Diner</h1>
+  <h1 align="center">Hope's Diner</h1>
   <hr/>
   &nbsp&nbsp&nbsp&nbsp&nbsp<a href=".\index.html">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
   <a href=".\menu.html">Menu</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
   <a href=".\contactus.html">Contact Us</a>
   <hr/>
 <table cellpadding="30" width="100%">
-<tr align="center" class="red-dotted-border">
+<tr align="center" >
 <td><h4 >Hope's Floats</h4>The most amazing rootbeer float you've ever had!<br>$2.50</td>
 <td ><h4>Hope's Dreams</h4>Waffles and ice cream!<br>$3</td>
 <td><h4>Hope's Burger</h4>Burger cooked to order with a side of fries!<br>$7.50</td>
@@ -32,7 +35,7 @@
 </table>
 <hr/>
 <div align="center">
-<div class="orange-border" style="width:500px;">777 Java St. Guildy, OH<br>481-516-2342</div>
+<div id="contact" style="width:500px;">777 Java St. Guildy, OH<br>481-516-2342</div>
 </div>
 </body>
 </html>

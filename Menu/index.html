@@ -1,15 +1,14 @@
+
 <!DOCTYPE html>
+<!--your header and footer must match across the pages, so store their styles in an external file called restaurantstyles.css.
+Apply all positioning CSS styles for the image on the home page as an in-line style.
+Apply all styles for the menu and contact form in internal style sheets.-->
 <html>
 <head>
 <title>Home Page</title>
-<link rel="stylesheet" type="text/css" href="Menu_Style.css">
+<link rel="stylesheet" type="text/css" href="restaurantstyles.css">
 <style>
-#picture{
-  width:500px;
-  border-width:25px;
-  border-style:ridge;
-  border-color:red;
-}
+
 p:hover{
   color:white;
   text-transform:capitalize;
@@ -25,8 +24,8 @@ p:hover{
 <a href=".\contactus.html">Contact Us</a>
 <hr>
 <table align="center" width="500px" cellpadding="20">
-<tr align="center">
-<td><img src=".\images\diner.jpg" id="picture"></td>
+<tr style="text-align:center">
+<td><img src=".\images\diner.jpg" style="width:500px; border-width:25px; border-style:ridge; border-color:red"></td>
 </tr>
 <tr>
 <td><p>Come on down to Hope's diner where you and the whole family can enjoy
@@ -38,7 +37,7 @@ Golly, this might be too much to handle."--Just remember--there's always Hope's!
 </table>
 <hr>
 <div align="center">
-<div  class="orange-border" style="width:500px;">777 Java St. Guildy, OH<br>481-516-2342</div>
+<div  id="contact" style="width:500px;">777 Java St. Guildy, OH<br>481-516-2342</div>
 </div>
 </body>
 </html>
