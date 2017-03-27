@@ -1,0 +1,8 @@
+CSS Background Text and Fonts
+background: color image repeat attachment position
+
+text-transform: capitlizae, uppercase, lowercase, none; text-indent:percentage
+
+text-decoration:overline,underline,line-through,none
+
+font-[family, weight, size, style];
