@@ -12,6 +12,9 @@ Apply all styles for the menu and contact form in internal style sheets.-->
     border-color:red;
     border-width:25;
   }
+  td{
+    font-weight:bold;
+  }
   </style>
 </head>
 <body>
@@ -51,14 +54,14 @@ Apply all styles for the menu and contact form in internal style sheets.-->
 </tr>
 <tr>
   <td align="right">Have you been to the restaurant?</td>
-  <td>&nbsp&nbsp&nbsp
+  <td  style="font-weight:normal">&nbsp&nbsp&nbsp
     <input type="radio" name="HAVE_YOU_BEEN" value="No" id="male" checked/><label for="No">No</label>
     <input type="radio" name="HAVE_YOU_BEEN" value="Yes" id="male"/><label for="Yes">Yes</label>
   </td>
 </tr>
 <tr>
   <td align="right">Best days to contact you</td>
-  <td>&nbsp&nbsp&nbsp
+  <td style="font-weight:normal">&nbsp&nbsp&nbsp
     <input type="checkbox" name="BEST_DAY" value="M"/>M
     <input type="checkbox" name="BEST_DAY" value="T"/>T
     <input type="checkbox" name="BEST_DAY" value="W"/>W

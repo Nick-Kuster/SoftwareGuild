@@ -3,6 +3,8 @@ h1{
   border-width:10px;
   border-color:red;
   border-style:dotted;
+  font-family:fantasy;
+  letter-spacing: 5px;
 }
 a:link{
   color:purple;
