@@ -1,0 +1,13 @@
+Width = 20px + 1px + 10px + 400px + 10px + 1px+ 20px =  462px
+
+Height =  20px + 1px + 10px + 150px + 10px + 1px + 20px = 212px
+
+Total Width = 462px
+Total Height= 212px
+
+Browser Calculated Width = 462px - 20px(Margin Width)
+Browser Calculated Height= 212px - 20px(Margin Width)
+
+Browser Calculated Width = 442px
+Browser Calculated Height = 192px
+
