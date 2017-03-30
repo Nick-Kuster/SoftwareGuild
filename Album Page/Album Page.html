@@ -2,7 +2,9 @@
 <html>
 <head>
 <title>Tin Cans and Car Tires</title>
-<link rel="stylesheet" type="text/css" href="Style.css">
+<link rel="stylesheet" href=".\css\bootstrap.css"/>
+
+
 <style>
 h1:hover{
 	color:blue;
@@ -23,24 +25,32 @@ a:hover{
 a:visited{
 	text-decoration:none;
 }
-#tincanbg{
+/*#tincanbg{
   background-image: url("./images/tincans.jpg");
-	}
+	border-radius: 500px;
+	}*/
 table{
 	border-collapse:collapse;
 }
 tbody{
-	background-color:#00ffff;
+
 	text-align:center;
 	font-style:italic;
-	
 }
-
+tr:nth-child(even){
+	background-color:#00ffff;
+}
+tr:nth-child(odd){
+		background-color:#00aaaa;
+}
+thead{
+	background-color:#00ffff;
+}
 </style>
 </head>
 <body>
 <div align="center">
-<div align="center" style="height:290px; width:290px" id="tincanbg"></div>
+<div align="center" style="height:290px; width:300px"><image src="./images/tincans.jpg" class="img-circle"/></div>
 </div>
 <h1 align="center" style="color:blue; letter-spacing: 3px; font-family: Cursive; ">Tin Cans and Car Tires</h1>
 <h2 align="center"><a href="http://www.moe.org">moe.</a></h2>
@@ -61,9 +71,9 @@ tbody{
 </ul>
 </div>
 
-<table border="1"  width="95%" align="center">
+<table border="1"  align="center" class="table-responsive col-lg-12 col-md-8 col-xs-4">
 <caption>Tracks</caption><br>
-<thead style="background-color:#BBBBBB">
+<thead style="background-color:#00ffff;">
 	<tr>
 		<th>Track#</th>
 		<th>Track Title</td>
