@@ -7,6 +7,7 @@ Apply all styles for the menu and contact form in internal style sheets.-->
 <head>
 <title>Home Page</title>
 <link rel="stylesheet" type="text/css" href="restaurantstyles.css">
+  <link rel="stylesheet" href=".\css\bootstrap.min.css">
 <style>
 
 p{
@@ -18,27 +19,39 @@ p{
 </head>
 <body>
 <h1 align="center">Hope's Diner</h1>
+<div class="container" style="margin-top:50px">
+<div class="jumbotron">
+<h1 align="center">New Location! <br>Coming Soon!</h1>
+</div>
+</div>
 <hr>
-&nbsp&nbsp&nbsp&nbsp&nbsp<a href=".\index.html">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<ul class="nav nav-pills">
+  <li class="active"><a href=".\index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+  <li><a href=".\menu.html">Menu</a></li>
+  <li><a href=".\contactus.html">Contact Us</a></li>
+</ul>
+
+<!--&nbsp&nbsp&nbsp&nbsp&nbsp<a href=".\index.html">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href=".\menu.html">Menu</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-<a href=".\contactus.html">Contact Us</a>
+<a href=".\contactus.html">Contact Us</a>-->
 <hr>
-<div style="background-color:#880800;"
-<table align="center" width="500px" cellpadding="20" style="margin-bottom:30px;">
-<tr style="text-align:center">
-<td><img src=".\images\diner.jpg" style="width:500px; border-width:25px; border-style:ridge; border-color:red; margin-top:30px"></td>
-</tr>
-<tr>
-<td><p >Come on down to Hope's diner where you and the whole family can enjoy
+<div style="background-color:#880800;" align="center" class="container-fluid">
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12" align="center">
+<img src=".\images\diner.jpg" class="img-responsive" style="width:500px; border-width:25px; border-style:ridge; border-color:red; margin-top:30px">
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12" align="center" style="margin-top:30px; background-color:#CC0000; padding-top:30px">
+<p >Come on down to Hope's diner where you and the whole family can enjoy
 a nice friendly meal. We understand that you may have just had a tough day
 trying to learn something new... coding perhaps? If you're getting discouraged and are thinking, "Gee
-Golly, this might be too much to handle."--Just remember--there's always Hope's!<p></td>
-</tr>
-</table>
+Golly, this might be too much to handle."--Just remember--there's always Hope's!<p>
+</div>
+</div>
+</div>
 </div>
 <hr>
-<div align="center">
-<div  id="contact" style="width:500px;">777 Java St. Guildy, OH<br>481-516-2342</div>
-</div>
+
+<div  id="contact" class="container" align="center" >777 Java St. Guildy, OH<br>481-516-2342</div>
+
 </body>
 </html>
