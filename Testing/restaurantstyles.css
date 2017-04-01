@@ -1,0 +1,26 @@
+
+h1{
+  border-width:10px;
+  border-color:#880800;
+  border-style:dotted;
+  font-family:fantasy;
+  letter-spacing: 5px;
+}
+a:link{
+  color:#880800;
+}
+a:visited{
+  color:red;
+}
+a:hover{
+  font-weight:bold;
+}
+a:active{
+  border-width:2px;
+  text-decoration:none;
+}
+#contact{
+  border-color:#880800;
+  border-width:10px;
+  border-style:solid;
+}
