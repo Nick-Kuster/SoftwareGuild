@@ -1,0 +1,41 @@
+<html>
+    <head>
+<title>Display Evens</title>
+<script type="text/JavaScript" src="displayEvens.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    rel="stylesheet" type="text/css" />
+    <style>
+    .form-group{
+      text-align:center;
+    };
+    </style>
+          </head>
+ <body>
+   <h1>Display Evens</h1>
+  <form name="evens" onsubmit="return findEvens();" onreset="resetForm();" >
+    <div class="row">
+    <div class="form-group col-lg-3 col-md-3" style="text-align:center">
+      <label for="min">Min Number</label>
+      <input type="number"  id="min">
+    </div></div><br/>
+    <div class="row">
+    <div class="form-group col-lg-3 col-md-3" style="text-align:center">
+      <label for="max">Max Number</label>
+      <input type="number"  id="max">
+    </div></div><br/>
+    <div class="row">
+    <div class="form-group col-lg-3 col-md-3" style="text-align:center">
+      <label for="step">Step Up By</label>
+      <input type="number"  id="step">
+    </div></div><br/>
+    <div class="row">
+      <div class="col-lg-3 col-md-3" style="text-align:center">
+    <button type="submit" id="submitButton" class="btn btn-default">Submit</button>
+    <button type="reset" id="resetButton" class="btn">Reset</button>
+  </div>
+  </div>
+
+  </form>
+<span id="results"></span>
+
+ </body>
