@@ -52,7 +52,7 @@ function findEvens(){
   for(var i = min; i<=max; i+=step){
 	if(i%2==0){
 
-    document.getElementById("results").innerText += i + "\n";
+    document.getElementById("results").innerText += i + '\n';
 
   }
 

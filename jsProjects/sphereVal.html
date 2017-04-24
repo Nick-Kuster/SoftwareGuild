@@ -11,43 +11,20 @@
 <body>
 <h1> Find the Volume Of A Sphere</h1><br/>
 
-<form name="sphere" onsubmit="return findVolume();" onreset="return reset();">
-    <div class="form=group">
+<form name="sphere"  onreset="return reset();">
+    <div>
 <label for="radius">Radius =</label>
-<input type="number" id="radius">
+<input type="number" step="0.0001" id="radius">
 </div><br/>
-<div class="form=group">
+<div >
   <label for="volume">Volume =</label>
- <input type="number" id="volume" value="">
+ <input type="number" step="0.0001" id="volume" value="">
 </div><br/>
-<button type="submit" id="Submit" class="btn btn-default">Submit form</button>
+<button type="submit" id="submit" class="btn btn-default" onclick="findVolume()">Find Volume</button>
+<button type="submit" id="vol" class="btn btn-default" onclick="findRadius()">Find Radius</button>
 <button type="reset"  id="resetButton" class="btn">Reset</button>
 </form>
 
-<!--<form name="evens" onsubmit="return findEvens();" onreset="resetForm();" >
-  <div class="row">
-  <div class="form-group col-lg-3 col-md-3" style="text-align:center">
-    <label for="min">Min Number</label>
-    <input type="number"  id="min">
-  </div></div><br/>
-  <div class="row">
-  <div class="form-group col-lg-3 col-md-3" style="text-align:center">
-    <label for="max">Max Number</label>
-    <input type="number"  id="max">
-  </div></div><br/>
-  <div class="row">
-  <div class="form-group col-lg-3 col-md-3" style="text-align:center">
-    <label for="step">Step Up By</label>
-    <input type="number"  id="step">
-  </div></div><br/>
-  <div class="row">
-    <div class="col-lg-3 col-md-3" style="text-align:center">
-  <button type="submit" id="submitButton" class="btn btn-default">Submit</button>
-  <button type="reset" id="resetButton" class="btn">Reset</button>
-</div>
-</div>-->
-
-</form>
 
 
 

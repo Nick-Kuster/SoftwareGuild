@@ -3,8 +3,9 @@
 <head>
 <title>Tin Cans and Car Tires</title>
 <link rel="stylesheet" href=".\css\bootstrap.css"/>
-
-
+<script src="Album Page.js" type="text/JavaScript"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    rel="stylesheet" type="text/css" />
 <style>
 h1:hover{
 	color:blue;
@@ -50,7 +51,8 @@ thead{
 </head>
 <body>
 <div align="center">
-<div align="center" style="height:290px; width:300px"><image src="./images/tincans.jpg" class="img-circle"/></div>
+<div align="center" id="img" style="height:290px; width:300px" >
+<image onclick="return changeImage()" src="./images/tincans.jpg" class="img-circle"/></div>
 </div>
 <h1 align="center" style="color:blue; letter-spacing: 3px; font-family: Cursive; ">Tin Cans and Car Tires</h1>
 <h2 align="center"><a href="http://www.moe.org">moe.</a></h2>
@@ -71,7 +73,7 @@ thead{
 </ul>
 </div>
 
-<table border="1"  align="center" class="table-responsive col-lg-12 col-md-8 col-xs-4">
+<table border="1"  align="center" class="table-responsive col-lg-12 col-md-12 col-xs-4" width="100%">
 <caption>Tracks</caption><br>
 <thead>
 	<tr  style="background-color:#00ffff;">

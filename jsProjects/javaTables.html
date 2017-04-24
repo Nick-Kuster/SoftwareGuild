@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="javaTables.js" type="text/JavaScript"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    rel="stylesheet" type="text/css" />
+<link href="javaTables.css" rel="stylesheet" type="text/css">
+</head>
+<body >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+<a href="www.google.com"  onclick="this.style.letterSpacing = '5px'" target="blank">Google</a>
+<table align="center" id="myTable" class="table-responsive">
+
+<tr onclick="this.style.backgroundColor = 'red'">
+<td >First Name</td>
+<td>Last Name</td>
+<td>Age</td>
+</tr>
+
+</table>
+</div>
+</div>
+</div>
+<div align="center">
+<button class="btn btn-default" onclick="return changeColor()">Change Color</button>
+<button class="btn btn-default" onclick="return resetTable()">Reset Table Color</button>
+</div>
+
+
+<div class="container" align="center" id="myForm">
+<form id="myForm" onSubmit="return changeTable()">
+<label for="firstName">First Name</label>
+<input type="text" id="firstName">
+<label for="lastName">Last Name</label>
+<input type="text" id="lastName">
+<label for="age">Age</label>
+<input type="number" id="age"></form>
+<div align="center" style="margin-top:20px;"><button class="btn btn-default" onClick="return changeTable()">Update Form</btn></div>
+
+</div>
+</body>
+
+
+</html>
